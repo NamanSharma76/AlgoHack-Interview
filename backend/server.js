@@ -14,7 +14,7 @@ const app = express();
 
 const allowedOrigins = [
   'http://localhost:3000',
-  'algohack-interview.vercel.app'
+  'https://algohack-interview.vercel.app'
 ];
 
 app.use(cors({
