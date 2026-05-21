@@ -91,7 +91,7 @@ export default function Home() {
 
               <h1 className="text-4xl md:text-6xl font-black text-slate-900 dark:text-white leading-tight mb-6">
                 Ace your next<br />
-                <span className="text-blue-500">tech interview</span><br />
+                <span className="text-blue-500">interview</span><br />
                 with AI
               </h1>
 
