@@ -103,10 +103,10 @@ export default function Interview() {
   // ─────────────────────────────────────────────────────────────────────────
   const handleStartInterview = async () => {
     setSetupError("");
-    const hasResume = resumeMode === "file" ? !!resumeFile : resumeText.trim().length > 50;
+    const hasResume = resumeMode === "file" ? !!resumeFile : resumeText.trim().length > 40;
     const hasJD = jdMode === "file" ? !!jdFile : jdText.trim().length > 20;
     if (!hasResume) return setSetupError("Please provide your resume (file or at least 50 characters of text).");
-    if (!hasJD) return setSetupError("Please provide the job description.");
+    if (!hasJD) return setSetupError("Please provide the job description(file or at least 20 characters of text).");
 
     setSetupLoading(true);
     try {
@@ -138,7 +138,7 @@ export default function Interview() {
       if (jdMode === "file" && jdFile) {
         jdContent = await readFileAsText(jdFile);
       }
-      // Use first 60 chars of JD as the job role label
+      // Use first 500 chars of JD as the job role label
       setJobRole(jdContent.slice(0, 500).trim());
 
       // 3. Generate questions from real data
