@@ -212,7 +212,7 @@ export default function Home() {
                 </svg>
                 Get Started Free
               </button>
-              <p className="text-slate-500 mt-4 text-sm mb-8">© 2026 HirePrep AI • Built by Naman Sharma</p>
+              <p className="text-slate-500 mt-4 text-sm mb-8">© 2026 AlgoHack AI • Built by Naman Sharma</p>
             </div>
           </section>
         </div>
@@ -346,7 +346,7 @@ export default function Home() {
                 : `You've completed ${totalInterviews} interview${totalInterviews > 1 ? "s" : ""}. Keep pushing! 🚀`}
             </p>
           )}
-          <p className="text-center text-xs text-slate-400 mt-6">© 2026 HirePrep AI • Built by Naman Sharma</p>
+          <p className="text-center text-xs text-slate-400 mt-6">© 2026 AlgoHack AI • Built by Naman Sharma</p>
         </div>
       )}
     </div>
