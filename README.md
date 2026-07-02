@@ -1,5 +1,4 @@
-
-#  AlgoHack Interview
+# 🚀 AlgoHack Interview
 
 **Live Demo:** [https://algohack-interview.vercel.app/](https://algohack-interview.vercel.app/)
 
@@ -7,17 +6,17 @@
 
 ---
 
-##  Table of Contents
+## 📑 Table of Contents
 
-1. [Architecture & Tech Stack](https://www.google.com/search?q=%23-architecture--tech-stack)
-2. [Database Schema](https://www.google.com/search?q=%23-database-schema)
-3. [Project Structure & File Explanations](https://www.google.com/search?q=%23-project-structure--file-explanations)
-4. [Local Development Setup](https://www.google.com/search?q=%23-local-development-setup)
-5. [Core Workflows](https://www.google.com/search?q=%23-core-workflows)
+1. [Architecture & Tech Stack](#️-architecture--tech-stack)
+2. [Database Schema](#️-database-schema)
+3. [Project Structure & File Explanations](#-project-structure--file-explanations)
+4. [Local Development Setup](#-local-development-setup)
+5. [Core Workflows](#️-core-workflows)
 
 ---
 
-##  Architecture & Tech Stack
+## 🏗️ Architecture & Tech Stack
 
 This project utilizes a decoupled full-stack architecture, separating the client-facing UI layer from the heavy computational API layer for maximum scalability.
 
@@ -49,7 +48,7 @@ This project utilizes a decoupled full-stack architecture, separating the client
 
 ---
 
-## Database Schema
+## 🗄️ Database Schema
 
 The application relies on a strictly relational PostgreSQL database hosted on Supabase. Below is the core schema driving the logic:
 
@@ -95,7 +94,7 @@ Stores the user's response and the AI's grading feedback.
 
 ---
 
-##  Project Structure & File Explanations
+## 📂 Project Structure & File Explanations
 
 ### 1. Backend (`/backend`)
 
@@ -158,7 +157,7 @@ frontend/
 
 ---
 
-## Local Development Setup
+## 💻 Local Development Setup
 
 To run this project locally, you will need two separate terminal windows (one for the frontend, one for the backend).
 
@@ -227,7 +226,7 @@ Open `http://localhost:3000` in your browser to see the application running.
 
 ---
 
-## Core Workflows
+## ⚙️ Core Workflows
 
 1. **Authentication:** Users log in via Supabase Google OAuth on the frontend.
 2. **Context Upload:** Users upload a PDF resume. The backend (`resumeController.js`) extracts the text using `pdf-parse`.
